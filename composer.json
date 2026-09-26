@@ -1,0 +1,21 @@
+{
+    "name": "sandstorm/mcp-feature-set-content",
+    "type": "neos-package",
+    "description": "MCP FeatureSet for Neos 9 content repository write operations the upstream CR feature set does not cover: hide/show, move, soft remove/restore, set references and a publish tool that asks before publishing to live",
+    "license": "AGPL-3.0-or-later",
+    "require": {
+        "neos/neos": "^9.0",
+        "sjs/flow-mcp": "*",
+        "sjs/neos-mcp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sandstorm\\MCP\\FeatureSet\\Content\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Sandstorm.MCP.FeatureSet.Content"
+        }
+    }
+}

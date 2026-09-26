@@ -1,0 +1,7 @@
+SJS:
+  Flow:
+    MCP:
+      server:
+        mcp:
+          featureSets:
+            content_edit: \Sandstorm\MCP\FeatureSet\Content\ContentEditFeatureSet
